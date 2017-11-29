@@ -1,0 +1,145 @@
+<style>
+	.col-sm-12
+	{
+		height:100px;
+		color:white;
+		background-color: blue;
+		text-align: center;
+		border: 2px solid black;
+	}
+	
+	.col-sm-6
+	{
+		height:100px;
+		color:black;
+		background-color: yellow;
+		text-align: center;
+		border: 2px solid black;		
+	}
+	
+	.col-sm-3
+	{
+		height:100px;
+		color:white;
+		background-color: green;
+		text-align: center;
+		border: 2px solid black;		
+	}
+	
+	.nav-item:hover
+	{
+		opacity: 0.14;
+		color: white;
+	}
+	
+	.navbar-inverse
+	{
+		background-color: black;
+		overflow: hidden;
+	}
+	
+	.navbar-inverse a
+	{
+		float: left;
+		display: block;
+		color: white; 
+		
+	}
+	
+	header 
+	{
+		padding: 154px 0 100px;
+		text-align: center;
+	}
+
+	header 
+		{
+			padding: 110px 0 100px;
+			text-align: center;
+		}
+
+	section 	
+	{
+		
+	}
+	
+	div.alex-img
+	{
+		float: right;
+		padding-left: 15px;
+		padding-right: 5px;
+		display: inline;
+		vertical-align: middle;
+
+	}
+	
+	.img-responsive
+	{
+		display: block;
+		max-width: 100%;
+		height : auto;
+		padding-left: 250px;
+		padding-right: 250px;
+		height: 60px;
+		width: 60px;
+	
+	}
+	iframe
+	{
+		float: right;
+		padding-left: 25px;
+		padding-right: 5px;
+		display: inline;
+		vertical-align: middle;
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+	.carousel
+	{
+		
+	}
+	
+.fa {
+    padding: 20px;
+    font-size: 150px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.6;
+	width: 120px;
+	height: 120px;
+	font-size: 80px;
+	color:white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube
+{
+	background: #FF0000;
+	color: white;
+}
+.fa-linkedin
+{
+	background: #55ACEE;
+    color: white;
+}
+
+
+</style>
