@@ -77,11 +77,11 @@
 	{
 
 		display: circle;
-		max-width: 100%;
+		max-width: 90%;
 		padding-left: 250px;
 		padding-right: 250px;
-		height: 160px;
-		width: 660px;
+
+		text-align: center;
 	
 	}
 	iframe
