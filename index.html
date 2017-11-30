@@ -22,7 +22,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</head>
 	
-	<body id="top-of-the-page">
+	<body id="top-of-the-page" data-spy="scroll" data-target=".navbar" data-offset="50">
 	
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-			  <a class="nav-link" href="#">Home</a>
+			  <a class="nav-link js-scroll-trigger" href="#">Home</a>
 			</li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -61,13 +61,35 @@
 		<div class="col-lg-8 mx-auto">
 			<h1>Online Portfolio of Alex Mac Uaid</h1>
 			<br>
+			
 			<p class="lead"> Welcome to my Online Portfolio. 
 			In the Portfolio you can browse information about me. 
 			Experiences, Eduction, Skills, Interests and Awards I have obtained.
 			Contact me with opportunities! </p>
+
+			<br><br>
+			<br><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<h3>Column 1</h3>
+						<p>Lorem ipsum dolor..</p>
+						<p>Ut enim ad..</p>
+					</div>
+					<div class="col-sm-4">
+						<h3>Column 2</h3>
+						<p>Lorem ipsum dolor..</p>
+						<p>Ut enim ad..</p>
+					</div>
+					<div class="col-sm-4">
+						<h3>Column 3</h3> 
+						<p>Lorem ipsum dolor..</p>
+						<p>Ut enim ad..</p>
+					</div>
+				</div>
+			</div>
 			
-			<br><br><br>
-			<br><br><br>
+			
 			<br><br><br>
 			<a href="https://www.facebook.com/alexmacuaid/" target="_blank" class="fa fa-facebook"></a>
 			<a href="https://twitter.com/alexmacuaid" target="_blank" class="fa fa-twitter"></a>
@@ -79,9 +101,8 @@
 			</div>
 			</header>
 			</section>
-	
-			<br><br><br><br><br><br><br><br>
-			<br><br><br><br><br><br><br><br>
+			<hr>
+			<br><br>
 			
 		<section id="about">
 			<div class="container-fluid">
@@ -119,6 +140,8 @@
 			</div>
 			
 		</section>
+		<br>
+		<hr>
 		<br><br><br><br>
 						
 		<section id="education">			
@@ -127,7 +150,11 @@
 					<h2>Education </h2>
 					<br>
 					<img src="G:\COLLEGE\4th Year\interactive Media Design\CA2ONLINECV\education.png" class="img-responsive" alt="Education" />
-
+					<p>In 2014 I finished my six years of learning for the leaving certificate and finished my second level education in 	
+						<a href="http://www.colaistechilliain.ie"target="_blank" class="colaisteChilliain">Colaiste Chilliain</a>. I learned every curriculum in the medium of the Irish Language "An Gaeilge". I found that I had an in dept knowledge of any subject I learned because I would process the knowledge twice In Irish and English.
+						<br> Once I completed my leaving certificate and received my results I then chose to progress my studies to Computing in the
+						<a href="http://http://www.it-tallaght.ie/" target="_blank" class"ittallaght">Institute of Technology Tallaght</a>.
+					</p>
 					<div id="accordion" role="tablist" aria-multiselectable="true">
 					  <div class="card">
 						<div class="card-header" role="tab" id="headingOne">
@@ -251,12 +278,14 @@
 			<br><br><br>
 			<br><br><br>
 		</section>
+		<hr>
 		<section id="project">
 			<div class="container-fluid">
 				<div class="row">
 				<div class="col-lg-8 mx-auto">
 				<br>
 				<h2>Projects</h2>
+				<br>
 				<div class="projects">
 				<img src="G:\COLLEGE\4th Year\interactive Media Design\CA2ONLINECV\projects.png" alt="Projects" />
 			</div>
@@ -271,7 +300,7 @@
 			<br><br><br>
 			<br><br><br>
 		</section>
-
+<hr>
 		<section id="contact">
 			<div class="container-fluid">
 				<div class="row">
@@ -331,5 +360,6 @@
 				</div>
 			</div>
 		</section>
+		<hr>
 	</body>
 </html>
