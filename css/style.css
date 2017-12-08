@@ -204,3 +204,24 @@ img.resize
 	width: 10px;
 	height: 10px;
 }
+#about
+{
+	background-color: #d3d3d3;
+}
+
+#education
+{
+	background-color: #C1E1A6;
+}
+#project
+{
+	background-color: #d3d3d3;
+}
+#workexperience
+{
+	background-color: #67BCDB;
+}
+#contact
+{
+	background-color: #d3d3d3;
+}
