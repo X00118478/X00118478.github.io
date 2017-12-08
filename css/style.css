@@ -173,7 +173,16 @@ input[type=submit]:hover {
 }
 .lead
 {
-	text-align: left;
+	text-align: center;
+	color: white;
+}
+.welcome
+{
+	color: white;
+}
+.download
+{
+	color: navy;
 }
 
 .footer {
