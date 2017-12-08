@@ -173,6 +173,11 @@ input[type=submit]:hover {
 }
 .lead
 {
+	text-align: left;
+	color: black;
+}
+.lead1
+{
 	text-align: center;
 	color: white;
 }
