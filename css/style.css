@@ -58,10 +58,6 @@
 			text-align: center;
 		}
 
-	section 	
-	{
-		
-	}
 	
 	div.alex-img
 	{
@@ -140,6 +136,8 @@
 	color: white;
 }
 
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -179,10 +177,30 @@ input[type=submit]:hover {
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;
-    background-color:grey;
+	right: 0;
+	padding: 1rem;
+    background-color:#696969;
     text-align: center;
+}
+
+body
+{
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.dsp
+{
+	width: auto;
+	height: auto;
+}
+img.resize
+{
+	width: 10px;
+	height: 10px;
 }
