@@ -167,3 +167,22 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+.dsp
+{
+	border:	0;
+	width: 150;
+	height: 150;
+}
+.lead
+{
+	text-align: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    text-align: center;
+}
